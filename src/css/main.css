@@ -1,0 +1,73 @@
+*{
+padding :0;
+margin:0;
+}
+
+body {
+  width: 70%;
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+input {
+  padding-left: 3px;
+  height: 30px;
+  width: 50px;
+}
+
+select {
+  padding-left: 3px;
+  height: 30px;
+}
+
+label  {
+  width: 5em;
+  float: left;
+ }
+
+.fieldset {
+  height: 100px;
+}
+
+.itemcolor {
+  background-color: blue ;
+  color: white;
+  height: 30px;
+}
+.text-formtd
+{
+  text-align: center;
+  width: 100px ;
+}
+
+.text-form
+{
+  text-align: center;
+  width: 100px ;
+  border: 1px solid;
+}
+
+.text-center
+{
+  text-align: center;
+  width: 100px ;
+  border: 1px solid;
+}
+.text-right
+{
+  text-align: right;
+  border: 1px solid;
+}
+
+.text-rate
+{
+  text-align: center;
+  width: 300px ;
+  border: 1px solid;
+}

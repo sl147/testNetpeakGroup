@@ -1,0 +1,9 @@
+{
+    "require": {
+        "intervention/image": "^2.5",
+        "stefangabos/zebra_image": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    }
+}
