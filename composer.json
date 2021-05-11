@@ -1,6 +1,6 @@
 {
     "require": {
-        "vendor/package": "1.*",
+        "vendor/guzzlehttp": "1.*",
     },
     "require-dev": {
         "phpunit/phpunit": "8"
