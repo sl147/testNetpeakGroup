@@ -16,9 +16,8 @@ div {
 }
 
 input {
-  padding-left: 3px;
   height: 30px;
-  width: 50px;
+  width: 45px;
 }
 
 select {
@@ -31,19 +30,10 @@ label  {
   float: left;
  }
 
-.fieldset {
-  height: 100px;
-}
-
 .itemcolor {
   background-color: blue ;
   color: white;
   height: 30px;
-}
-.text-formtd
-{
-  text-align: center;
-  width: 100px ;
 }
 
 .text-form

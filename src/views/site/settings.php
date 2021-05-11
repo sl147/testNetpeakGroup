@@ -1,5 +1,6 @@
+<h3>Настройки</h3><br>
+
 <form>
-	<legend>Настройки</legend>
 	<?php foreach ($arrTemp as $item) :?>
 		<?php if ($item["item"] == "quantity") :?>
 		<label>кол<br> записей</label>

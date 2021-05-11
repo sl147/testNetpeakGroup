@@ -1,11 +1,11 @@
 <?php
 
-class SiteController
+class SiteController extends Common
 {	
 
     /**
      * 
-     * @var получаем массивы с курспми валют
+     * @var получаем массивы с курсами валют
      * @return array listСurrency массив всех курсов
      * @return array settingsCurrency массив курсов с учетом настроек
      * 
@@ -124,11 +124,11 @@ class SiteController
 		if(isset($_POST['submit']))
 		{
 			$arrTemp = [];
-			array_push($arrTemp, $classSettings->addLine('quantity', $this->filterINT('quantity')));
+			array_push($arrTemp, $this->addLine('quantity', $this->filterINT('quantity')));
 
 			foreach ($this->listСurrency as $value) {
 				$val = $this->filterINT($value['ccy']);
-				array_push($arrTemp, $classSettings->addLine($value['ccy'], (isset($val)) ? 1 : 0));
+				array_push($arrTemp, $this->addLine($value['ccy'], (isset($val)) ? 1 : 0));
 			}
 			file_put_contents(FILESETTINGS,serialize($arrTemp));
 		}

@@ -33,7 +33,8 @@ class History// extends Common
 	public function getHistory()
 	{
 		$countQuery = $this->getQuantity();
-		return array_slice(unserialize(file_get_contents(FILEHISTORY)), -$countQuery);
+		
+		return (file_exists(FILEHISTORY)) ? array_slice(unserialize(file_get_contents(FILEHISTORY)), -$countQuery) : [];
 	}
 }
 ?>
