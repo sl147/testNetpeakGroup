@@ -14,8 +14,8 @@ class History// extends Common
 	private function getQuantity()
 	{
 		$classSettings = new Settings();
-		$arr = $classSettings->getSettings();
-		foreach ($arr as $value) {
+		$arrTemp       = $classSettings->getSettings();
+		foreach ($arrTemp as $value) {
 			if($value['item'] == "quantity")
 				{
 					return $value['value'];

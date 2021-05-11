@@ -28,7 +28,7 @@ class Settings
 		{
 			$classGetRate = new GetExchangeRate();
 			$listСurrency = $classGetRate->getRate();
-			array_push($arr, $this->addLine('quantity', 10));
+			array_push($arrTemp, $this->addLine('quantity', 10));
 			foreach ($listСurrency as $value) {
 				array_push($arrTemp, $this->addLine($value['ccy'], true));
 			}

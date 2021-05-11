@@ -1,1 +1,0 @@
-a:6:{i:0;a:2:{s:4:"item";s:8:"quantity";s:5:"value";i:10;}i:1;a:2:{s:4:"item";s:3:"USD";s:5:"value";i:1;}i:2;a:2:{s:4:"item";s:3:"EUR";s:5:"value";i:1;}i:3;a:2:{s:4:"item";s:3:"RUR";s:5:"value";i:1;}i:4;a:2:{s:4:"item";s:3:"BTC";s:5:"value";i:0;}i:5;a:2:{s:4:"item";s:3:"UAH";s:5:"value";i:1;}}
