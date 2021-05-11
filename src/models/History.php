@@ -24,6 +24,12 @@ class History// extends Common
 		return 0;
 	}
 
+    /**
+     * 
+     * @var получаем данные истории
+     * @return array
+     * 
+     */
 	public function getHistory()
 	{
 		$countQuery = $this->getQuantity();
